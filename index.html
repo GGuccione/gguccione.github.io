@@ -6,7 +6,10 @@
     <a-scene>
       <a-assets>
      <a-asset-item id="cell-obj" src="cell.obj"></a-asset-item>
-      <a-sphere position="0 -0.75 6" rotation="0 65 0" color="#3AFE82"></a-box>
+      <a-asset-item id="cell-mtl" src="cell.mtl"></a-asset-item>
+     </a-assets>
+     <a-entity obj-model="obj: #cell-obj; mtl: #cell-mtl" scale="0.01 0.01 0.01" rotation="-90 0 0" position="0 2 -5"></a-entity>
+      <a-sphere position="0 -0.75 6" rotation="0 65 0" color="#3AFE82"></a-sphere>
       <a-sphere position="0 0.98 3" radius="7.89"color="#58D68D"></a-sphere>
       <a-cylinder position="0 -2.64 3" radius="4.53" height="1.5" color="#F5C23B"></a-cylinder>
       <a-cylinder position="0 0 8.56" radius="0.85" height="1.5" color="#EF159C"></a-cylinder>
@@ -18,5 +21,8 @@
       <a-sphere position="0 0.98 3" radius="6.87" color="#8D6FA7"></a-sphere>
       <a-text position="0 1.54 0" value="Nucleus"></a-text>
       <a-sky color="#55F709"></a-sky>
-</a-assets>
 
+
+</a-scene>
+</body>
+</html>
