@@ -1,0 +1,38 @@
+
+<h1>Giancarlo Guccione</h1>
+<h2>About Me</h2>
+<p>I have a Shiba Inu and his name is Kuma.</p>
+<img src="Kuma.jpg" width="400" height="300">
+
+</body>
+</html>
+<head>
+<style>
+body {
+  background-color: lightblue;
+}
+p {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+<html>
+<html>
+    <title>My Identity By Giancarlo Guccione</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		
+	</div>
+	<body>
+	{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.container{
+	width: 100%;
+	height: 100%
+	background: #6298F6;
+}
